@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
     <title>Forside</title>
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <ul class="menu__link">
-                <li class="menu__items">
-                    <a class="menu__link" href="#">link</a>
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="index.html">HOME</a>
                 </li>
-                <li class="menu__items">
-                    <a class="menu__link" href="#">link</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="">GALLERI</a>
                 </li>
-                <li class="menu__items">
-                    <a class="menu__link" href="#">link</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="">ANBEFALEDE</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">KONTAKT</a>
                 </li>
             </ul>
         </nav>
+        <!-- menu -->
     </header>
     <main>
         <div id="Wrapper">
@@ -34,22 +39,25 @@
                         Donec ac tortor sagittis ipsum varius sagittis eget a lacus. Phasellus pharetra aliquam leo eu
                         convallis. <br>
                         Vestibulum pulvinar turpis eu finibus egestas.
+                    </p>
                         <hr>
+                    <p class="text__content">
                         <span><strong>Suspendisse</strong></span> ut aliquet arcu, sit amet pellentesque dui. <br>
                         Vivamus et varius massa. Ut tempor ipsum enim, sit amet convallis quam elementum a. <br>
                         Ut vel ipsum justo. Vivamus eu est nulla. <br>
                         Vestibulum leo purus, dictum sed est ut, porta pellentesque velit. <br>
                     </p>
-                    <div class="imgcontainer">
-                        <img class="imgcontainer__img" src="images/banner.jpeg" alt="Billede" width="480">
-                    </div>
-                    <div class="imgcontainer">
-                        <img class="imgcontainer__img" src="images/banner.jpeg" alt="Billede" width="240">
-                        <img class="imgcontainer__img" src="images/banner.jpeg" alt="Billede" width="240">
-                    </div>
-                    <div class="vidcontainer">
-                        <video class="vidcontainer__vid" src="https://via.placeholder.com/400x300"></video>
-                    </div>
+                        <div class="bigImgContainer"> 
+                            <img class="imgcontainer__img" src="images/banner.jpeg" alt="Billede" width="480">
+                        </div>
+                        <div class="smallImgContainer">
+                            <img class="imgcontainer__img" src="images/banner.jpeg" alt="Billede" width="240">
+                            <img class="imgcontainer__img" src="images/banner.jpeg" alt="Billede" width="240">
+                        </div>
+                        <div class="vidcontainer">
+                            <iframe class="vidcontainer__vid" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=gRYuP_F2erB-SY6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    
                     <aside class="aside"><img src="images/banner.jpeg" alt="billede" width="360"></aside>
                     <div class="iframecontainer">
                         <iframe width="480" height="480"
